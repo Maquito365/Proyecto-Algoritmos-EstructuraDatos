@@ -1,0 +1,200 @@
+2026.02.12 21:25:39 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos' for client Visual Studio Code 1.109.2.
+2026.02.12 21:25:39 INFO  time: initialize in 0.12s
+2026.02.12 21:25:39 INFO  Memory monitor started
+2026.02.12 21:25:41 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.12 21:25:41 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:43 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:43 WARN  no build tool detected in workspace 'C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.02.12 21:25:43 WARN  Build server is not auto-connectable.
+2026.02.12 21:25:43 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java
+2026.02.12 21:25:43 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:45 WARN  Running javac-semanticdb failed for file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/Stack.java. Output:
+
+2026.02.12 21:25:45 INFO  time: code lens generation in 2.11s
+2026.02.12 21:25:47 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:49 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:55 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:55 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:55 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:55 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+Feb 12, 2026 9:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Feb 12, 2026 9:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Feb 12, 2026 9:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2026.02.12 21:25:56 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:57 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:56 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:58 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+2026.02.12 21:25:59 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+Feb 12, 2026 9:26:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.12 21:26:33 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Stack.java. Using fallback presentation compiler.
+Feb 12, 2026 9:26:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.02.12 21:27:19 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java
+2026.02.12 21:27:19 WARN  Running javac-semanticdb failed for file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/import%20java.util.java. Output:
+
+2026.02.12 21:27:19 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:27:19 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java
+2026.02.12 21:27:19 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:27:20 WARN  Running javac-semanticdb failed for file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/import%20java.util.java. Output:
+
+2026.02.12 21:27:20 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:27:19 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:27:19 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:27:21 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:27:21 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:27:21 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:27:23 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:28:03 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java
+2026.02.12 21:28:03 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:28:03 INFO  no build target found for c:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\import java.util.java. Using fallback presentation compiler.
+2026.02.12 21:28:03 WARN  Running javac-semanticdb failed for file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/.java. Output:
+
+2026.02.12 21:28:03 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:28:03 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:28:03 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:28:03 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:28:04 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:05 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:05 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:07 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:15 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+Feb 12, 2026 9:29:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.12 21:29:17 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+Feb 12, 2026 9:29:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.12 21:29:18 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:18 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:21 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java
+2026.02.12 21:29:21 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:21 WARN  Running javac-semanticdb failed for file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/Main.java. Output:
+
+2026.02.12 21:29:22 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:23 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:24 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:28 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java
+2026.02.12 21:29:28 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:28 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:28 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:31 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java
+2026.02.12 21:29:31 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:31 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:31 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:31 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:31 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:32 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:32 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:34 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:36 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:38 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:38 WARN  Running javac-semanticdb failed for file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/.java. Output:
+
+2026.02.12 21:29:38 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:41 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java
+2026.02.12 21:29:41 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:41 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:43 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:43 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:44 WARN  Running javac-semanticdb failed for file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/Main.java. Output:
+
+2026.02.12 21:29:44 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:43 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:44 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:44 WARN  Running javac-semanticdb failed for file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/Main.java. Output:
+
+2026.02.12 21:29:44 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:44 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:45 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:47 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java
+2026.02.12 21:29:47 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:53 INFO  no build target found for c:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.java. Using fallback presentation compiler.
+2026.02.12 21:29:53 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java
+2026.02.12 21:29:53 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:53 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:53 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:55 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:55 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:55 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:55 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:56 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:29:56 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:00 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:00 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:00 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:02 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:02 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:03 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:03 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:04 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:04 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:05 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:05 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:05 INFO  Created report: Optional[file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/Main.java]
+2026.02.12 21:30:05 INFO  empty definition using pc, found symbol in pc: java/util/Scanner# (full report at: "C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.metals\.reports\metals-full\2026-02-12\r_empty-definition_21-30-06-000.md")
+2026.02.12 21:30:05 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:07 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:08 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:08 INFO  empty definition using pc, found symbol in pc: java/util/Scanner# (full report at: "C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\.metals\.reports\metals-full\2026-02-12\r_empty-definition_21-30-06-000.md")
+2026.02.12 21:30:07 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:09 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:09 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:10 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:10 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:11 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:11 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:13 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:13 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:14 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:14 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:16 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:16 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:17 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:17 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:17 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:20 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:20 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:21 WARN  no build target for: C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java
+2026.02.12 21:30:21 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:22 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:22 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:22 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:23 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:23 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:26 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.
+2026.02.12 21:30:26 INFO  no build target found for C:\Users\joses\OneDrive\Desktop\estructura de datos\Proyecto 1 est, data\Proyecto-Algoritmos-EstructuraDatos\Main.java. Using fallback presentation compiler.

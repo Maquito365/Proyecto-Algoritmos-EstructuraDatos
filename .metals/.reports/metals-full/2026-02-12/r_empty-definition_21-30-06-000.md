@@ -1,4 +1,15 @@
-import java.util.Scanner;
+error id: file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/Main.java:java/util/Scanner#
+file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/Main.java
+empty definition using pc, found symbol in pc: java/util/Scanner#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 17
+uri: file:///C:/Users/joses/OneDrive/Desktop/estructura%20de%20datos/Proyecto%201%20est,%20data/Proyecto-Algoritmos-EstructuraDatos/Main.java
+text:
+```scala
+import java.util.@@Scanner;
 public class Main {
     
     public static void main(String[] args) {
@@ -53,3 +64,9 @@ public class Main {
         scanner.close();
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/util/Scanner#
