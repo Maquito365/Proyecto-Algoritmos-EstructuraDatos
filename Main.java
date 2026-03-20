@@ -10,7 +10,7 @@ public class Main {
         while (opcion != 4) {
             System.out.println("\nSimulador de Script de Bitcoin");
             System.out.println("1. Ejecutar Script de forma Manual");
-            System.out.println("2. Ejemplo de P2PKH");
+            System.out.println("2. Demo P2PKH (correcto / incorrecto)");
             System.out.println("3. Ver Opcodes disponibles");
             System.out.println("4. Salir");
             System.out.print("Ingrese una opción: ");
@@ -20,10 +20,10 @@ public class Main {
                 opcion = scanner.nextInt();
             } else {
                 System.out.println("Entrada inválida, ingrese un número.");
-                scanner.next(); // limpia entrada incorrecta
+                scanner.next();
                 continue;
             }
-            scanner.nextLine(); // limpiar buffer
+            scanner.nextLine();
 
             switch (opcion) {
 
@@ -41,7 +41,7 @@ public class Main {
                     break;
 
                 case 2:
-                    System.out.println("\nEjecutando P2PKH real...");
+                    System.out.println("\n=== DEMO P2PKH ===");
 
                     try {
                         Wallet wallet = new Wallet();
@@ -55,17 +55,40 @@ public class Main {
                         String pubKeyHex = HashUtil.bytesToHex(wallet.publicKey.getEncoded());
                         String pubKeyHash = HashUtil.sha256(pubKeyHex);
 
+                        //CORRECTO
                         String p2pkh = signatureHex + " " + pubKeyHex +
                                 " OP_DUP OP_HASH160 " + pubKeyHash +
                                 " OP_EQUALVERIFY OP_CHECKSIG";
 
-                        System.out.println("Script generado:");
+                        System.out.println("\n--- P2PKH CORRECTO ---");
+                        System.out.println("Script:");
                         System.out.println(p2pkh);
 
                         InterpreteBitCoin interprete2 = new InterpreteBitCoin();
                         boolean result = interprete2.execute(p2pkh);
 
-                        System.out.println("Resultado P2PKH: " + result);
+                        System.out.println("Resultado: " + result);
+
+                        //INCORRECTO (firma alterada)
+                        String signatureHexBad = signatureHex.substring(1);
+
+                        String p2pkhBad = signatureHexBad + " " + pubKeyHex +
+                                " OP_DUP OP_HASH160 " + pubKeyHash +
+                                " OP_EQUALVERIFY OP_CHECKSIG";
+
+                        System.out.println("\n--- P2PKH INCORRECTO ---");
+                        System.out.println("Script:");
+                        System.out.println(p2pkhBad);
+
+                        InterpreteBitCoin interprete3 = new InterpreteBitCoin();
+
+                        try {
+                            boolean resultBad = interprete3.execute(p2pkhBad);
+                            System.out.println("Resultado: " + resultBad);
+                        } catch (Exception e) {
+                            System.out.println("Resultado: false");
+                            System.out.println("Motivo: Firma inválida o datos corruptos");
+                        }
 
                     } catch (Exception e) {
                         System.out.println("Error en P2PKH: " + e.getMessage());
