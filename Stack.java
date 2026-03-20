@@ -6,6 +6,11 @@ public class Stack {
 
     private Deque<String> stack;
 
+    @Override
+    public String toString() {
+        return stack.toString();
+    }
+
     public Stack(){
         stack = new ArrayDeque<>();
     }
@@ -35,5 +40,10 @@ public class Stack {
     public void printStack(){
         System.out.println(stack); //Imprime el contenido de la pila
     }
+
+    public int size(){
+        return stack.size(); //Devuelve el número de elementos en la pila
+    }
+    
 
 }

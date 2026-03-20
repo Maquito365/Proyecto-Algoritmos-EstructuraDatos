@@ -1,3 +1,5 @@
+import java.security.PublicKey;
+
 public class InterpreteBitCoin {
      
     private Stack stack;
@@ -13,12 +15,13 @@ public class InterpreteBitCoin {
 
         for(String token : tokens){ // Itera sobre cada token en el arreglo "tokens" utilizando un bucle for-each. 
         // En cada iteración, el token actual se asigna a la variable "token".
+            System.out.println("\n>> Ejecutando: " + token);
             
             switch (token){ 
                
                 case "OP_0":
                     stack.push("0"); // Si el token es "OP_n", se empuja el valor "n" a la pila utilizando el método push de la clase Stack.
-                    break;
+                    break; 
                 case "OP_1":
                     stack.push("1"); 
                     break;
@@ -108,19 +111,49 @@ public class InterpreteBitCoin {
                     if(stack.isEmpty()){
                         return false;
                     }
-                    String Hash = stack.pop();
-                    stack.push("HASH_" + Hash); //Se simula el hash, se jala el valor del tope y se le pone "hash" para simular
+                    String value = stack.pop();
+                    try{
+                        String hash = HashUtil.sha256(value); 
+                        stack.push(hash); //Se calcula el hash del valor utilizando la función sha256 y se empuja el resultado a la pila.
+                    }catch (Exception e){
+                        throw new RuntimeException(e);
+                    }
                     break;
                 case "OP_CHECKSIG":
-                    stack.pop(); //Se eliminan dos valores del tope de la pila, que representan la firma 
-                    stack.pop();//y la clave pública.
-                    stack.push("1"); //Se simula la verificación de la firma, se asume que siempre es válida
+                    if(stack.size() < 2){ // Verifica si hay al menos dos elementos en la pila antes de intentar realizar la operación OP_CHECKSIG.
+                        throw new RuntimeException("OP_CHECKSIG requiere firma y clave pública");
+                    }
+                    try {
+                        String pubKeyStr = stack.pop();
+                        String signatureStr = stack.pop();
+
+                        byte[] signature = HashUtil.hexToBytes(signatureStr);
+                        PublicKey pubKey = SignatureUtil.stringToPublicKey(pubKeyStr);
+
+                        String mensaje = "tx-demo";
+
+                        System.out.println("\n--- OP_CHECKSIG ---");
+                        System.out.println("Firma: " + signatureStr);
+                        System.out.println("PubKey: " + pubKeyStr);
+                        System.out.println("Mensaje: " + mensaje);
+
+                        boolean valid = SignatureUtil.verify(mensaje, signature, pubKey);
+
+                        System.out.println("Resultado verificación: " + valid);
+                        System.out.println("-------------------");
+
+                        stack.push(valid ? "1" : "0");
+
+                    } catch (Exception e) {
+                        throw new RuntimeException("Error en OP_CHECKSIG: " + e.getMessage());
+                    }
                     break;
-                default:
-                    stack.push(token); //Si no es OP osea token se asume que es un dato y se empuja a la pila
-                    break;
+                    default:
+                        stack.push(token);
+                        break;
             }
-            stack.printStack(); //Imprime el contenido de la pila después de cada operación para mostrar el estado actual de la pila.
+            System.out.println("Stack: " + stack);
+            System.out.println("---------------------------------"); //Imprime el contenido de la pila después de cada operación para mostrar el estado actual de la pila.
         }
         if(stack.isEmpty()){
             return false; 
