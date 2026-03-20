@@ -15,61 +15,21 @@ public class InterpreteBitCoin {
 
         for(String token : tokens){ // Itera sobre cada token en el arreglo "tokens" utilizando un bucle for-each. 
         // En cada iteración, el token actual se asigna a la variable "token".
+        //Manejo dinámico de OP_0 a OP_16
+            if(token.startsWith("OP_")){
+                try {
+                    int value = Integer.parseInt(token.substring(3));
+                    if(value >= 0 && value <= 16){
+                        stack.push(String.valueOf(value));
+                    continue; // saltar el switch
+                    }
+                    } catch(Exception e){
+                    // no es número → sigue al switch normal
+                    }
+            }
             System.out.println("\n>> Ejecutando: " + token);
             
             switch (token){ 
-               
-                case "OP_0":
-                    stack.push("0"); // Si el token es "OP_n", se empuja el valor "n" a la pila utilizando el método push de la clase Stack.
-                    break; 
-                case "OP_1":
-                    stack.push("1"); 
-                    break;
-                case "OP_2":
-                    stack.push("2"); 
-                    break;
-                case "OP_3":
-                    stack.push("3"); 
-                    break;
-                case "OP_4":
-                    stack.push("4"); 
-                    break;
-                case "OP_5":
-                    stack.push("5"); 
-                    break;
-                case "OP_6":
-                    stack.push("6"); 
-                    break;
-                case "OP_7":
-                    stack.push("7"); 
-                    break;
-                case "OP_8":
-                    stack.push("8"); 
-                    break;
-                case "OP_9":
-                    stack.push("9"); 
-                    break;
-                case "OP_10":
-                    stack.push("10"); 
-                    break;
-                case "OP_11":
-                    stack.push("11"); 
-                    break;
-                case "OP_12":
-                    stack.push("12"); 
-                    break;
-                case "OP_13":
-                    stack.push("13"); 
-                    break;
-                case "OP_14":
-                    stack.push("14"); 
-                    break;
-                case "OP_15":
-                    stack.push("15"); 
-                    break;
-                case "OP_16":
-                    stack.push("16"); 
-                    break;
                 case "OP_DUP":
                     if(stack.isEmpty()){
                         return false;
